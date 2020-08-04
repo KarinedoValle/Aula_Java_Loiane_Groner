@@ -1,0 +1,23 @@
+package Aula_15;
+
+import java.util.Scanner;
+
+public class Ex_18 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		int numero;
+		
+		System.out.print("Digite um número para saber se ele é par ou ímpar: ");
+		numero = scan.nextInt();
+		
+		if(numero % 2 == 0) {
+			System.out.println("\nO número " + numero + " é par.");
+		} else {
+			System.out.println("\nO número " + numero + " é ímpar.");
+		}
+
+	}
+
+}
